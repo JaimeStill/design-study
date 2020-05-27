@@ -24,7 +24,7 @@
 ### Intro
 
 * [Your Brain on Front-End Development](https://css-tricks.com/your-brain-on-front-end-development/)
-* [What Makes a Good Front-End Developer?](https://css-tricks.com/guides/how-to-think-like-a-front-end-developer/)
+* [What Makes a Good Front-End Developer?](https://css-tricks.com/what-makes-a-good-front-end-developer/)
 * [What We Don't Know](https://css-tricks.com/what-we-dont-know/)
 * [Many Ways to Learn](https://css-tricks.com/many-ways-learn/)
 * [Designers These Days](https://css-tricks.com/designers-these-days/)
