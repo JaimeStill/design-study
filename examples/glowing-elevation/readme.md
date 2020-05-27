@@ -129,11 +129,11 @@ Classes for static glowing, as well as a transitioning class for when a mouse ho
 ```scss
 @import './glow.scss'
 
-.light {
+.app-light {
   @include($default-theme);
 }
 
-.dark {
+.app-dark {
   @include($default-theme);
 }
 ```

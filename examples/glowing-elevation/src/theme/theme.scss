@@ -15,14 +15,14 @@ $dark-primary: mat-palette($mat-cyan, A200);
 $dark-accent: mat-palette($mat-yellow, A200);
 $dark-warn: mat-palette($mat-red, A200);
 
-.light {
+.app-light {
   $default-theme: mat-light-theme($light-primary, $light-accent);
   @include style-theme($default-theme);
   @include style-glow($default-theme);
   @include angular-material-theme($default-theme);
 }
 
-.dark {
+.app-dark {
   $default-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
   @include style-theme($default-theme);
   @include style-glow($default-theme);

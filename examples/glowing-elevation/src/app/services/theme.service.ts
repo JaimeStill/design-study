@@ -17,11 +17,11 @@ export class ThemeService {
 
   setOverlayContainerTheme = () => {
     if (this.isLight) {
-      this.overlay.getContainerElement().classList.remove('dark');
-      this.overlay.getContainerElement().classList.add('light');
+      this.overlay.getContainerElement().classList.remove('app-dark');
+      this.overlay.getContainerElement().classList.add('app-light');
     } else {
-      this.overlay.getContainerElement().classList.remove('light');
-      this.overlay.getContainerElement().classList.add('dark');
+      this.overlay.getContainerElement().classList.remove('app-light');
+      this.overlay.getContainerElement().classList.add('app-dark');
     }
   }
 }
