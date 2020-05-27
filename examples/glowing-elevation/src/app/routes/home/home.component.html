@@ -1,0 +1,35 @@
+<mat-toolbar>
+  <span class="flex">Home</span>
+  <button mat-icon-button
+          (click)="themer.toggleTheme()">
+    <mat-icon [color]="themer.isLight ? 'accent' : 'default'">
+      {{themer.isLight ? 'brightness_5' : 'brightness_3'}}
+    </mat-icon>
+  </button>
+</mat-toolbar>
+
+<section class="container">
+  <section class="example background-card glowing-primary">
+    <code class="primary">glowing-primary</code>
+  </section>
+
+  <section class="example background-card glowing-accent">
+    <code class="accent">glowing-accent</code>
+  </section>
+
+  <section class="example background-card glowing-warn">
+    <code class="warn">glowing-warn</code>
+  </section>
+
+  <section class="example background-card glow-12-primary">
+    <code class="primary">glow-12-primary</code>
+  </section>
+
+  <section class="example background-card glow-12-accent">
+    <code class="accent">glow-12-accent</code>
+  </section>
+
+  <section class="example background-card glow-12-warn">
+    <code class="warn">glow-12-warn</code>
+  </section>
+</section>
