@@ -1,6 +1,6 @@
 # Glowing Elevation
 
-[![glowing-elevation](https://user-images.githubusercontent.com/14102723/82961103-59da3f80-9f8a-11ea-99cf-f223101a4cc4.gif)](https://user-images.githubusercontent.com/14102723/82961103-59da3f80-9f8a-11ea-99cf-f223101a4cc4.gif)
+[![glowing-elevation](https://user-images.githubusercontent.com/14102723/82961826-75464a00-9f8c-11ea-84b8-5938c0e5e040.gif)](https://user-images.githubusercontent.com/14102723/82961826-75464a00-9f8c-11ea-84b8-5938c0e5e040.gif)
 
 This idea was created from the observation that shadows in dark mode are almost imperceptible on a lot of screens. With this capability, rather than a shadow showing the depth of an element, it is indicated with a glowing light against a dark background.
 
