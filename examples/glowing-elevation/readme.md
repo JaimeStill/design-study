@@ -4,6 +4,10 @@
 
 This idea was created from the observation that shadows in dark mode are almost imperceptible on a lot of screens. With this capability, rather than a shadow showing the depth of an element, it is indicated with a glowing light against a dark background.
 
+[![shadow-comparison](https://user-images.githubusercontent.com/14102723/83021742-78771f80-9ff8-11ea-8f97-8f965d554b44.png)](https://user-images.githubusercontent.com/14102723/83021742-78771f80-9ff8-11ea-8f97-8f965d554b44.png)
+
+*dark theme vs. light theme shadows*
+
 ## Research
 [Back to Top](#glowing-elevation)
 
