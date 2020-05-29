@@ -104,7 +104,7 @@ The **universal selector** (`*`) matches elements of any type.
 
 The **class selector** matches elements based on the contents of their `class` attribute.
 
-[![class-01](https://user-images.githubusercontent.com/14102723/83294382-3944fc00-a1bb-11ea-9143-fe1f5ef1d855.png)](https://user-images.githubusercontent.com/14102723/83294382-3944fc00-a1bb-11ea-9143-fe1f5ef1d855.png)
+[![class-01](https://user-images.githubusercontent.com/14102723/83302626-b11a2300-a1c9-11ea-8871-c18ca8c9e2a6.png)](https://user-images.githubusercontent.com/14102723/83302626-b11a2300-a1c9-11ea-8871-c18ca8c9e2a6.png)
 
 ```css
 .highlight {
