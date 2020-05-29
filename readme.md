@@ -65,7 +65,7 @@
 * [Radial Gradient Recipes](https://css-tricks.com/radial-gradient-recipes/)
 * [Transitioning Gradients](https://keithjgrant.com/posts/2017/07/transitioning-gradients/)
 * [Easing Linear Gradients](https://css-tricks.com/easing-linear-gradients/)
-* [Using Conic Gradients and CSS Variables to Createa  Doughnut Chart Output for a Range Input](https://css-tricks.com/using-conic-gradients-css-variables-create-doughnut-chart-output-range-input/)
+* [Using Conic Gradients and CSS Variables to Create a Doughnut Chart Output for a Range Input](https://css-tricks.com/using-conic-gradients-css-variables-create-doughnut-chart-output-range-input/)
 
 ### Typography
 
