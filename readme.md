@@ -13,7 +13,9 @@
 
 ## Notes
 
-* [Your Brain on Front-End Development](./article-notes/your-brain-on-front-end-development.md)
+* [Your Brain on Front-End Development](./article-notes/01.your-brain-on-front-end-development.md)
+* [Selectors](./article-notes/02.selectors.md)
+* [The Box Model](./article-notes/03.box-model.md)
 
 ## Examples
 
