@@ -16,6 +16,7 @@
 * [Your Brain on Front-End Development](./article-notes/01.your-brain-on-front-end-development.md)
 * [Selectors](./article-notes/02.selectors.md)
 * [The Box Model](./article-notes/03.box-model.md)
+* [Backgrounds and Borders](./article-notes/04.backgrounds-and-borders.md)
 
 ## Examples
 
@@ -36,6 +37,7 @@
 
 * [Selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 * [The Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+* [Backgrounds and Borders](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders)
 * [Overflowing Content](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content)
 * [Values and Units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 * [Sizing Items](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
