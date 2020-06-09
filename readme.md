@@ -17,6 +17,8 @@
 * [Selectors](./article-notes/02.selectors.md)
 * [The Box Model](./article-notes/03.box-model.md)
 * [Backgrounds and Borders](./article-notes/04.backgrounds-and-borders.md)
+* [Overflowing Content](./article-notes/05.overflowing-content.md)
+* [CSS Values and Units](./article-notes/06.css-values-and-units.md)
 
 ## Examples
 
