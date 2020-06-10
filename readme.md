@@ -19,6 +19,7 @@
 * [Backgrounds and Borders](./article-notes/04.backgrounds-and-borders.md)
 * [Overflowing Content](./article-notes/05.overflowing-content.md)
 * [CSS Values and Units](./article-notes/06.css-values-and-units.md)
+* [Sizing Items in CSS](./article-notes/07.sizing-items-in-css.md)
 
 ## Examples
 
