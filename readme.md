@@ -47,7 +47,7 @@
 * [Values and Units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 * [Sizing Items](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS)
 * [Images, Media, and Form Elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements)
-* [filter](https://css-tricks.com/almanac/properties/f/filter/)
+* [filter](https://css-tricks.com/almanac/properties/f/filter/) and [backdrop-filter](https://css-tricks.com/almanac/properties/b/backdrop-filter/)
   * [Backdrop Filter Demo](https://codepen.io/robinrendle/pen/LmzLEL)
   * [Frosted Glass](https://mfreed7.github.io/backdrop-filter-feature/examples/scrollable.html)
   * [Another Frosted Glass](https://codepen.io/GreggOD/pen/xLbboZ)
