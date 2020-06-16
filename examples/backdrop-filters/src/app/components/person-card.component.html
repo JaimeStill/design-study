@@ -1,0 +1,63 @@
+<section class="elevated"
+         fxLayout="column"
+         fxLayoutAlign="start start"
+         [style.width.px]="size">
+  <section class="backdrop"
+           [style.backgroundImage]="'url('+person?.pic+')'">
+    <section class="cover"
+             backdrop
+             fxLayout="row"
+             fxLayoutAlign="start center"
+             [filters]="bdFilters"
+             [hover]="bdHover">
+      <img [src]="person?.pic">
+      <section class="title"
+               fxFlex
+               fxLayout="column"
+               fxLayoutAlign="start stretch">
+        <p class="mat-subheading-2">{{getTitle()}}</p>
+        <p>{{person.phone}}</p>
+        <p>{{person.email}}</p>
+        <p>{{person.branch}}</p>
+        <p>{{person.attachedOrg}} - {{person.attachedSection}}</p>
+      </section>
+    </section>
+  </section>
+  <section class="background card details">
+    <p class="mat-body-strong">Contact</p>
+    <section [style.margin-left.px]="12">
+      <p>Middle: {{person.middle}}</p>
+      <p>Address: {{person.address}}</p>
+      <p>Phone: {{person.phone}}</p>
+      <p>Email: {{person.email}}</p>
+    </section>
+    <p class="mat-body-strong">Physical</p>
+    <section [style.margin-left.px]="12">
+      <p>Height: {{person.height}}</p>
+      <p>Weight: {{person.weight}}</p>
+      <p>Blood Type: {{person.bloodType}}</p>
+      <p>Eye Color: {{person.eyeColor}}</p>
+      <p>Hair Color: {{person.hairColor}}</p>
+    </section>
+    <p class="mat-body-strong">PII</p>
+    <section [style.margin-left.px]="12">
+      <p>Birthplace: {{person.birthplace}}</p>
+      <p>SSN: {{person.ssn}}</p>
+      <p>DOB: {{person.dob}}</p>
+    </section>
+    <p class="mat-body-strong">Org</p>
+    <section [style.margin-left.px]="12">
+      <p>Org: {{person.org}}</p>
+      <p>Section: {{person.section}}</p>
+      <p>Attached Org: {{person.attachedOrg}}</p>
+      <p>Attached Section: {{person.attachedSection}}</p>
+      <p>Branch: {{person.branch}}</p>
+      <p>Rank: {{person.rank}}</p>
+      <p>Grade: {{person.grade}}</p>
+      <p>BASD: {{person.basd}}</p>
+      <p>PCS: {{person.pcs}}</p>
+      <p>ETS: {{person.ets}}</p>
+      <p>DOR: {{person.dor}}</p>
+    </section>
+  </section>
+</section>

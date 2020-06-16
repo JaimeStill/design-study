@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <span fxFlex>Person Card Prototype</span>
+  <button mat-icon-button
+          (click)="themer.toggleTheme()">
+    <mat-icon [color]="themer.isLight ? 'accent' : 'default'">
+      {{themer.isLight ? 'brightness_5' : 'brightness_3'}}
+    </mat-icon>
+  </button>
+</mat-toolbar>
+<ng-template #loading>
+  <mat-progress-bar mode="indeterminate"
+                    color="accent"></mat-progress-bar>
+</ng-template>
+<ng-container *ngIf="peopleSvc.people$ | async as people else loading">
+  <section *ngIf="people.length > 0"
+           fxLayout="row | wrap"
+           fxLayoutAlign="start stretch"
+           [style.padding.px]="4">
+    <person-card *ngFor="let person of people"
+                 [person]="person"
+                 [style.margin.px]="8"></person-card>
+  </section>
+</ng-container>
