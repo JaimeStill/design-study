@@ -1,34 +1,23 @@
+.elevated {
+  margin: 4px;
+}
+
 .backdrop {
-  background-color: white;
+  background-color: rgba(0,0,0,.87);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  background-position-y: center;
+  background-position-x: right;
+}
+
+.title {
+  color: rgba(0,0,0,.9);
 }
 
 .cover {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: rgba(0,0,0,.87);
-
-  img {
-    width: 180px;
-    height: 180px;
-    margin: 8px;
-  }
-
-  .title {
-    padding: 8px;
-  }
+  margin: 4px;
 }
 
-.details {
-  padding: 8px;
-  height: 100%;
-  width: calc(100% - 16px);
+mat-accordion {
+  width: 100%;
 }

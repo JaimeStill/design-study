@@ -11,6 +11,9 @@ export interface Person {
   eyeColor: string;
   hairColor: string;
   address: string;
+  city: string;
+  state: string;
+  zip: string;
   phone: string;
   email: string;
   birthplace: string;
