@@ -314,7 +314,7 @@ Using the `BackdropDirective` created in the StackBlitz prototype, I was able to
 Relevant Files:
 
 * [person.ts](./src/app/models/person.ts)
-* [people.service.ts](./src/app/models/people.service.ts)
+* [people.service.ts](./src/app/services/people.service.ts)
 * [backdrop.directive.ts](./src/app/directives/backdrop.directive.ts)
 * [person-card.component.ts](./src/app/components/person-card.component.ts)
 * [person-card.component.html](./src/app/components/person-card.component.html)
