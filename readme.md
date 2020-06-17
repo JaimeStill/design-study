@@ -26,6 +26,7 @@
 ## Examples
 
 * [glowing-elevation](./examples/glowing-elevation)
+* [backdrop-filters](./examples/backdrop-filters)
 
 ## Articles
 
