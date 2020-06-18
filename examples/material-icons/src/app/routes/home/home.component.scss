@@ -1,0 +1,19 @@
+.example {
+  padding: 12px;
+  height: calc(100% - 64px);
+  width: 100%;
+
+  h2.mat-subheading-2 {
+    padding: 0;
+    margin: 4px;
+  }
+
+  button {
+    margin: 8px;
+    margin-right: 24px;
+  }
+
+  .mat-icon {
+    transform: scale(1.5);
+  }
+}

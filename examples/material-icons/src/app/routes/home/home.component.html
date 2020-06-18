@@ -1,0 +1,94 @@
+<mat-toolbar>
+  <span fxFlex>Material Icons</span>
+  <button mat-icon-button
+          (click)="themer.toggleTheme()">
+    <mat-icon [ngClass]="themer.isLight ? 'material-icons-outlined' : 'material-icons'"
+              [color]="themer.isLight ? 'accent' : 'default'">
+      {{themer.isLight ? 'brightness_5' : 'brightness_3'}}
+    </mat-icon>
+  </button>
+</mat-toolbar>
+<section class="example"
+         fxLayout="column"
+         fxLayoutAlign="start center">
+  <h2 class="mat-subheading-2">Filled (Regular)</h2>
+  <section fxLayout="row"
+           fxLayoutAlign="start center">
+    <button mat-icon-button
+            color="primary">
+      <mat-icon>score</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon>thumb_up_alt</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon>add_alert</mat-icon>
+    </button>
+  </section>
+  <h2 class="mat-subheading-2">Outlined</h2>
+  <section fxLayout="row"
+           fxLayoutAlign="start center">
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-outlined">score</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-outlined">thumb_up_alt</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-outlined">add_alert</mat-icon>
+    </button>
+  </section>
+  <h2 class="mat-subheading-2">Round</h2>
+  <section fxLayout="row"
+           fxLayoutAlign="start center">
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-round">score</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-round">thumb_up_alt</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-round">add_alert</mat-icon>
+    </button>
+  </section>
+  <h2 class="mat-subheading-2">Sharp</h2>
+  <section fxLayout="row"
+           fxLayoutAlign="start center">
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-sharp">score</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-sharp">thumb_up_alt</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-sharp">add_alert</mat-icon>
+    </button>
+  </section>
+  <h2 class="mat-subheading-2">Two Tone</h2>
+  <section fxLayout="row"
+           fxLayoutAlign="start center">
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-two-tone">score</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-two-tone">thumb_up_alt</mat-icon>
+    </button>
+    <button mat-icon-button
+            color="primary">
+      <mat-icon class="material-icons-two-tone">add_alert</mat-icon>
+    </button>
+  </section>
+</section>

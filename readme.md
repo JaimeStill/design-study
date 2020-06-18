@@ -27,6 +27,7 @@
 
 * [glowing-elevation](./examples/glowing-elevation)
 * [backdrop-filters](./examples/backdrop-filters)
+* [material-icons](./examples/material-icons)
 
 ## Articles
 
