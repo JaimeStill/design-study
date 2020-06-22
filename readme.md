@@ -22,6 +22,8 @@
 * [Sizing Items in CSS](./article-notes/07.sizing-items-in-css.md)
 * [Images, Media, and Form Elements](./article-notes/08.images-media-and-form-elements.md)
 * [Filters](./article-notes/09.filters.md)
+* [Centering in CSS](./article-notes/10.centering-in-css.md)
+* [Links and Buttons](./article-notes/11.links-and-buttons.md)
 
 ## Examples
 
