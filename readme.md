@@ -25,6 +25,7 @@
 * [Centering in CSS](./article-notes/10.centering-in-css.md)
 * [Links and Buttons](./article-notes/11.links-and-buttons.md)
 * [Flexbox](./article-notes/12.flexbox.md)
+* [Grid](./article-notes/13.grid.md)
 
 ## Examples
 
